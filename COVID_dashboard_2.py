@@ -7,15 +7,7 @@ import plotly.graph_objs as go
 from datetime import datetime, timedelta
 import json
 
-# st.set_page_config(layout="wide")
-
-
-# Data importing
-# Heroku files path!!!
-# ./data/raw/stzh.adm_stadtkreise_a.json
-# ./data/raw/20200306_hundehalter.csv
-# dogs_geojson = json.load(open("./data/raw/stzh.adm_stadtkreise_a.json"))
-# dog_df = pd.read_csv("./data/raw/20200306_hundehalter.csv")
+st.set_page_config(layout="wide")
 
 ##############
 # Functions #
