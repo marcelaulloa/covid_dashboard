@@ -7,5 +7,4 @@
 \pard\pardeftab720\sl336\partightenfactor0
 
 \f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 web: sh setup.sh \cf3 \strokec3 &&\cf2 \strokec2  streamlit run COVID_dashboard_2.py\
-}
+web: sh setup.sh \cf3 &&\cf2  streamlit run COVID_dashboard_2.py}
