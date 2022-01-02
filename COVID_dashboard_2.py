@@ -116,8 +116,7 @@ def gen_heatmap(df,region,plot_type,plot_time):
     fig2 = go.Figure(data=go.Heatmap(
         z=z.T,
         x=x,
-        y=['0 - 9', '10 - 19', '20 - 29', '30 - 39', '40 - 49', '50 - 59', '60 - 69', '70 - 79', '80+'],
-        colorbar={'orientation':"h"}))
+        y=['0 - 9', '10 - 19', '20 - 29', '30 - 39', '40 - 49', '50 - 59', '60 - 69', '70 - 79', '80+']))
     fig2.update_layout(autosize=False,width=900,height=400,title = {'text': 'Distribution by Age Group in {}'.format(region), "font": {"size": 24}})
     fig2.update_traces(colorscale='blues', ygap=3, selector=dict(type='heatmap'))
     return fig2
