@@ -246,3 +246,5 @@ elif plot_type=='Hospitalizations':
     st.plotly_chart(gen_graph(df_dailyhosp,plot_region,plot_type,plot_time))
     st.plotly_chart(gen_heatmap(df_agehosp, plot_region, plot_type, plot_time))
     st.plotly_chart(gen_sexmap(df_sexhosp, plot_region, plot_type, plot_time))
+
+st.write('Data Source: [Federal Office of Public Health FOPH](https://www.covid19.admin.ch/en/overview)')
